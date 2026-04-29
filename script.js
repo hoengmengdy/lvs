@@ -111,7 +111,7 @@ const products = [{
     {
         name: "Pouch Cabbage Neem",
         price: "$6",
-        img: "./img/products Empress/Pouch Cabbage+Neem.png"
+        img: "./img/products Empress/PouchCabbageNeem.png"
     },
     {
         name: "Conditioner Refill",
@@ -231,7 +231,7 @@ const products = [{
     {
         name: "Laundry Orange 5L",
         price: "$18",
-        img: "./img/RINs/Rins-Laundry-Orange-5L-.png"
+        img: "./img/RINs/Rinslaundry5L.png"
     },
     {
         name: "Laundry Purple 1.3L",
