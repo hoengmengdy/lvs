@@ -1511,3 +1511,21 @@ footer a:hover {
         font-size: 21px;
     }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Kantumruy Pro', 'Noto Sans Khmer', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.kantumruy {
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+body {
+    font-family: 'Kantumruy Pro', sans-serif;
+}

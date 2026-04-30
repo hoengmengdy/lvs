@@ -420,7 +420,7 @@ body {
 
 .section-title {
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 900;
     margin-bottom: 25px;
     position: relative;
@@ -703,4 +703,47 @@ footer ul {
     .map-box {
         height: 150px;
     }
+}
+
+.map-btn-box {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.map-btn {
+    display: inline-block;
+    background: #198754;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.map-btn:hover {
+    background: #146c43;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Kantumruy Pro', 'Noto Sans Khmer', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.kantumruy {
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+body {
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+.hero-img img {
+    width: 100%;
+    max-height: 370px;
+    object-fit: contain;
 }
