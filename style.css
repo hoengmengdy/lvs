@@ -1529,3 +1529,31 @@ body {
 body {
     font-family: 'Kantumruy Pro', sans-serif;
 }
+
+.logohoro {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.logohoro img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+
+/* Hover effect */
+
+.logohoro img:hover {
+    transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+    .logohoro img {
+        height: 180px;
+        border-radius: 10px;
+    }
+}
