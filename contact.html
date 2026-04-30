@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | LSV Industry</title>
+
+    <link rel="stylesheet" href="contact.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="navbar">
+        <div class="logo-box">
+            <img src="./img/lsvlogo.png" alt="LSV Logo">
+            <span></span>
+            <img src="./img/okalogo.jpg" alt="OKA Logo">
+        </div>
+
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <div class="nav-icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-user"></i>
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Contact -->
+    <section class="contact-hero">
+        <div class="hero-text">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Send us a message and we'll respond as soon as possible.</p>
+
+            <div class="hero-service">
+                <div>
+                    <i class="fa-solid fa-headset"></i>
+                    <h4>Fast Response</h4>
+                    <p>We reply within 24h</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h4>Trusted Support</h4>
+                    <p>Friendly & professional</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h4>Always Here</h4>
+                    <p>We're here for you</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-product">
+            <img src="./img/contact-products.png" alt="Product">
+        </div>
+    </section>
+
+    <!-- Main Contact -->
+    <section class="contact-section">
+
+        <!-- Form -->
+        <div class="contact-card form-card">
+            <h2><i class="fa-regular fa-paper-plane"></i> Send Us a Message</h2>
+
+            <form id="contactForm">
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Your Name <span>*</span></label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Email Address <span>*</span></label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>Phone Numbe​r Telegram</label>
+                    <input type="text" id="phone" placeholder="Enter your phone number">
+                </div>
+
+                <div class="input-group">
+                    <label>Subject / Product Category <span>*</span></label>
+                    <select id="category" required>
+                        <option value="">Select product category</option>
+                        <option value="OKA Bright Clean">OKA Bright Clean</option>
+                        <option value="OKA Refresh">OKA Refresh</option>
+                        <option value="OKA Zuper Clean">OKA Zuper Clean</option>
+                        <option value="Empress">Empress</option>
+                        <option value="RINS">RINS</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>Your Message <span>*</span></label>
+                    <textarea id="message" rows="6" placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="send-btn">
+                    <i class="fa-regular fa-paper-plane"></i> Send Message
+                </button>
+
+            </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-card info-card">
+            <h2><i class="fa-solid fa-circle-info"></i> Contact Information</h2>
+
+            <div class="info-box">
+                <div class="info-icon phone-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                    <h4>Phone</h4>
+                    <p class="bold">+855 23 888 123</p>
+                    <p>Mon - Sun: 8:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <div class="info-icon email-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <p class="bold">info@lsvindustry.com.kh</p>
+                    <p>We'll reply as soon as possible</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <div class="info-icon location-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                    <h4>Location</h4>
+                    <p class="bold">LSV Industry Co., Ltd.</p>
+                    <p>Phnom Penh, Cambodia</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <div class="info-icon social-icon">
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+                <div>
+                    <h4>Follow Us</h4>
+                    <div class="socials">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <p>Stay updated with our latest news</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+
+        <div class="faq-grid">
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How can I place an order?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <p>You can place an order directly through our website or contact our team via phone, email, or Facebook page.</p>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    How can I track my order?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <p>Once your order is shipped, you will receive a tracking number via email or SMS.</p>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do you offer delivery?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <p>Yes! We offer fast delivery across Cambodia. Free shipping on orders over $49.</p>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I return or exchange products?
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <p>Yes, we accept returns or exchanges within 7 days of delivery if the product has any issue.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="map-section">
+        <div class="map-box">
+            <div class="map-pin">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>LSV Industry</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+
+            <div>
+                <div class="footer-logo">
+                    <img src="./img/logo.png" alt="">
+                    <img src="./img/oka/logo.png" alt="">
+                </div>
+                <p>Delivering powerful cleaning solutions and care for every home.</p>
+
+                <div class="footer-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Contact Us</h4>
+                <p><i class="fa-solid fa-location-dot"></i> LSV Industry Co., Ltd.</p>
+                <p>Phnom Penh, Cambodia</p>
+                <p><i class="fa-solid fa-phone"></i> +855 23 888 123</p>
+                <p><i class="fa-regular fa-envelope"></i> info@lsvindustry.com.kh</p>
+            </div>
+
+
+
+        </div>
+
+        <div class="copyright">
+            © 2025 LSV Industry Co., Ltd. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+
+</html>

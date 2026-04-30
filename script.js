@@ -1,5 +1,5 @@
 const products = [{
-        name: "Brigh 1L",
+        name: "Bright 1L",
         price: "$14",
         img: "./img/oka/Brigh 1L.png"
     },
@@ -169,12 +169,12 @@ const products = [{
         img: "./img/products Empress/Single-mockup.png"
     },
     {
-        name: "ក្រែមបន្ទន់សក់រូបរាងថ្មិ ",
+        name: "ក្រែមបន្ទន់សក់រូបរាងថ្មី",
         price: "$11",
         img: "./img/products Empress/ក្រែមបន្ទន់សក់រូបរាងថ្មិ.png"
     },
     {
-        name: "ស្ពៃនិង ស្ដៅ ",
+        name: "ស្ពៃនិង ស្ដៅ",
         price: "$11",
         img: "./img/products Empress/ស្ពៃនិងស្ដៅ.png"
     },
@@ -203,11 +203,7 @@ const products = [{
         price: "$8",
         img: "./img/RINs/Rin-Lemongrass-Front-Mock-up2.png"
     },
-    {
-        name: "Rins Pineapple 1.2L",
-        price: "$7",
-        img: "./img/RINs/Rins-dishwash-Pineapple-1,2L.png"
-    },
+
     {
         name: "Rins Lemongrass 1.2L",
         price: "$7",
@@ -243,23 +239,21 @@ const products = [{
         price: "$18",
         img: "./img/RINs/Rins-laundry-Purple-5L-II-.png"
     }
-
 ];
 
 let box = document.getElementById("products");
 
 products.forEach(item => {
     box.innerHTML += `
-    <div class="card">
-        <div class="p-img">
-            <img src="${item.img}" alt="${item.name}">
-        </div>
+        <div class="card">
+            <div class="p-img">
+                <img src="${item.img}" alt="${item.name}">
+            </div>
 
-        <div class="info">
-            <div class="title">${item.name}</div>
-            <div class="price">❤ ${item.price}</div>
+            <div class="info">
+                <div class="title">${item.name}</div>
+                <div class="price">${item.price}</div>
+            </div>
         </div>
-
-    </div>
     `;
 });

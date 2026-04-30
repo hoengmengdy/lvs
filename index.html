@@ -3,34 +3,207 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>LSV Industry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSV Industry | OKA Products</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
     <div class="wrapper">
 
-        <div class="logo">
-            <img src="./img/logo2.png" alt="">
-        </div>
+        <!-- Header -->
+        <header class="navbar">
+            <div class="logo-box">
+                <img src="./img/lsvlogo.png" alt="LSV Logo">
+                <span></span>
+                <img src="./img/okalogo.jpg" alt="OKA Logo">
+            </div>
 
-        <div class="hero">
-            <img src="./img/logo1.jpg">
-        </div>
+            <nav class="menu">
+                <a href="#" class="active">Home</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
 
-        <div class="notice">
-            Free Shipping
-        </div>
+            <div class="nav-icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-user"></i>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>0</span>
+                </div>
+            </div>
+        </header>
 
-        <div class="products" id="products"></div>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-text">
+                <h1>
+                    CLEAN HOME <br>
+                    <span>HAPPY FAMILY</span>
+                </h1>
+                <p>Powerful Clean. Gentle Care. <br> Trusted by Every Family.</p>
+
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+
+                <div class="hero-features">
+                    <div>
+                        <i class="fa-solid fa-droplet"></i>
+                        <p>Powerful<br>Cleaning</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-spa"></i>
+                        <p>Long Lasting<br>Freshness</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-shield-heart"></i>
+                        <p>Safe for<br>Family</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-img">
+                <img src="./img/banner.png" alt="OKA Banner">
+            </div>
+        </section>
+
+        <!-- Category -->
+        <section class="categories">
+            <h2 class="section-title">Shop by Category</h2>
+
+            <div class="category-grid">
+
+                <div class="category-card cat-blue">
+                    <h3>Bright Clean</h3>
+                    <p>Brighten every day with powerful clean.</p>
+                    <button>Explore →</button>
+                    <img src="./img/oka/Bright 10L.png" alt="">
+                </div>
+
+                <div class="category-card cat-pink">
+                    <h3>Refresh</h3>
+                    <p>Long lasting freshness for your home.</p>
+                    <button>Explore →</button>
+                    <img src="./img/oka/refresh 3L.png" alt="">
+                </div>
+
+                <div class="category-card cat-orange">
+                    <h3>Zuper Clean</h3>
+                    <p>Tough on dirt, gentle on hands.</p>
+                    <button>Explore →</button>
+                    <img src="./img/oka/Zuper 3L.png" alt="">
+                </div>
+
+                <div class="category-card cat-gold">
+                    <h3>Empress</h3>
+                    <p>Premium care with nature’s goodness.</p>
+                    <button>Explore →</button>
+                    <img src="./img/products Empress/Empress Orange and Honey FA_Mockup.png" alt="">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section class="product-section">
+            <div class="product-head">
+                <h2>Best Selling Products</h2>
+                <button>View All</button>
+            </div>
+
+            <div class="products" id="products">
+                <!-- Products load from JS -->
+            </div>
+        </section>
+
+
+
+        <!-- Promo -->
+        <section class="promo">
+            <div class="promo-left">
+                <h3>FREE SHIPPING</h3>
+                <p>On all orders over $49</p>
+                <button>Shop Now</button>
+            </div>
+
+            <div class="promo-center">
+                <p>Special Offer</p>
+                <h2>Up to <span>20% OFF</span></h2>
+                <p>On Selected Products</p>
+            </div>
+
+            <div class="promo-right">
+                <img src="./img/oka/Bright 10L.png" alt="">
+                <img src="./img/oka/Refresh 10L.png" alt="">
+                <img src="./img/oka/Zuper 3L.png" alt="">
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-grid">
+
+                <div>
+                    <div class="footer-logo">
+                        <img src="./img/logo.png" alt="">
+                        <img src="./img/oka/logo.png" alt="">
+                    </div>
+                    <p>Delivering powerful cleaning solutions and care for every home.</p>
+
+                    <div class="footer-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Promotion</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Shipping & Delivery</a></li>
+                        <li><a href="#">Returns & Refunds</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contact Us</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Phnom Penh, Cambodia</p>
+                    <p><i class="fa-solid fa-phone"></i> +855 23 888 123</p>
+                    <p><i class="fa-solid fa-envelope"></i> info@lsvindustry.com</p>
+                </div>
+
+
+
+            </div>
+
+            <div class="copyright">
+                © 2026 LSV Industry Co., Ltd. All Rights Reserved.
+            </div>
+        </footer>
 
     </div>
 
-    <script src="./script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
